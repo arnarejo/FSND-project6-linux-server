@@ -1,17 +1,27 @@
 # UDACITY - Linux Server Configuration
 **Project objective** - Take a baseline installation of a Linux server and prepare it to host web applications. Secure server from a number of attack vectors, install and configure a database server, and deploy one of existing web applications onto it.
+
 **Public IP address** - 13.210.135.75
+
 **SSH Port** - 2200
-TODO: Change port from 22 to 2200 to ensure better security
+
 **URL** - http://ec2-13-210-135-75.ap-southeast-2.compute.amazonaws.com
+
 ## 1. Create an instance on Amazon
   i. [Register on amazon lightsail or login as existing user](https://amazonlightsail.com/)
+
   ii. Select Instance location
+
   iii. Select a platform => *Choose Linux/Unix*
+
   iv. Select a blueprint => *OS only*
+
   v. Select Operating System => *Ubuntu*
+
   vi. Choose instance plan => *$5 per month*
+
   vii. Name your instance => *Ubuntu-512MB-Sydney-Final*
+
   viii. Click Create Button
 Note: this may take a while to configure the instance
 ## 2. login amazon server remotely as 'ubuntu' & update software
